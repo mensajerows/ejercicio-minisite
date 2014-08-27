@@ -1,0 +1,51 @@
+body
+{
+background: #f2eded;
+font-family: monospace;
+font-size: 16px;    
+}
+
+header
+{
+ background: #202020;
+ color: white;
+ padding:0.5em;
+    
+}
+
+header figure
+{
+float: left;
+    position: relative;
+    
+}
+
+header #logo img
+{
+ width: 60px;
+ border-right: 2px solid white;
+    padding-right: 0.5em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+ margin-right: 0.5em;
+}
+
+header #avatar img
+{
+width: 60px;
+}
+
+header #avatar
+{
+padding: 10px; 5px; 5px; 10px;
+   position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header h1
+{
+font-size: 1.2em;
+    font-weight: normal;
+    margin: 2em 70px 0 0  
+}
