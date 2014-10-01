@@ -113,6 +113,8 @@ background: #fff;
 margin-bottom: 3em;
 border-bottom: solid #2e7476 3px;
 min-height: 130px;
+    position: relative;
+    
 }
 
 #contenido .item .img_item img
@@ -144,7 +146,8 @@ color: #ee2c28
 
 #contenido .item .info_item
 {
-color: #000000 
+    margin: 1em 1em 0 0;
+ 
 }
 
 #contenido .item .autor_item a
@@ -164,6 +167,7 @@ font-style: italic;
 color: white;
 }
 
+
 #contenido .item .tiempo
 {
 background: #e0e0e0;
@@ -173,9 +177,47 @@ box-shadow: rgba(0,0,0,0.7) 2px 2px 8px;
 text-shadow: rgba(0,0,0,0.7) 5px 5px 10px;
 font-style: italic;   
 color: white;
-position: right;
-
+float: right;
 }
 
+#contenido .item .votacion_item
+{
+ background: #db0b0b;
+ border-radius: 0 0 0.5em 0.5em;
+ width: 95%;
+ position:absolute;
+top: 100%;
+left; 1.2%;
+margin-top: 3px;
+    left: 1.5%;
+}
+#contenido .item .votacion_item .comentario_item
+{
+ float: right;
+}
+
+footer
+{
+  background: #63bcb8; 
+    height: 90px;
+    position:relative;
+    
+}
+
+footer #dis_por
+{
+    text-align:center;
+    
+    
+
+    
+}
+footer #derechos
+{
+text-align:center;
+    
+    
+    
+}
 
 
